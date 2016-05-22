@@ -176,8 +176,538 @@
         "general": "Cameras, photographic and hand-held video cameras for personal use may be brought into the ballpark, provided game action is not recorded. Flash photography and camera support pods are not permitted. Coolers and lunch bags containing food will be allowed, but they must be able to fit under a standard seat in a space 10in high, 16in wide and 13in deep. None of the following permitted into ballpark: firearms, blowhorns, noisemakers, fishing nets, beach balls and laser pens. Beverages allowed: Water (only) in sealed, plastic bottles; empty, plastic water bottles; sealed single-serving juice bottles; and formula/babyfood."
       }
     },
+     {
 
+      "name" : "Comerica Park",
+      "location": "2100 Woodward Ave., Detroit, MI 48201",
+      "homeOf" : "Detroit Tigers",
+      "imageURL": [],
+      "overview": {
+        "history": "The $300 million urban village known as Comerica Park has raised expectations in the city of Detroit. The ballpark includes a carousel, Ferris wheel and an enormous water feature behind center field that can be choreographed to music. A major priority when designing this park was the fans' sightlines. Comerica has no upper-deck outfield seats, offering a gorgeous view of the downtown skyline. The park includes 70,000 square feet of retail space and another 36,000 square feet of offices.",
+        "soakUpTheScene": "Comerica Park has plenty of off-field entertainment, including a carousel (with tigers replacing horses, of course), a Ferris wheel and a fountain that spouts liquid fireworks. And beyond the left-field wall is a series of unique statues of six Tigers greats. The park is located in downtown Detroit, and believe it or not there's plenty to see and do close by. Hit Nemo's, a classic sports bar, before the game and nearby Greektown after."
+      },
+      "statistics": {
+        "seatingCap": "41,297",
+        "playingSurface": "Grass",
+        "opened": "200",
+        "distanceToCenter": "401ft",
+        "avgAttend": "29,257",
+        "typology": "Retro Classic"
+      },
+      "seating": {
+        "imageURL": "",
+        "general": "There is a non-smoking policy, except in designated areas of the concourse. Cameras and video cameras are allowed."
+      }
+    },
+        {
 
+      "name" : "Turner Field",
+      "location": "755 hand Aaron Drive, Atlanta GA, 30315",
+      "homeOf" : "Atlanta Braves",
+      "imageURL": [],
+      "overview": {
+        "history": "Turner Field, named after Braves owner Ted Turner, was built just south of Atlanta-Fulton County Stadium in 1996. This $320 million Olympic stadium was retrofitted into a baseball-only, open-air, natural-grass facility. Turner Field was the third stadium in history to have played host to the Summer Olympics before being used as a major-league ballpark. The old stadium, Atlanta-Fulton County, was imploded in 1997 and converted into a parking lot for Turner Field.",
+        "soakUpTheScene": "This was the Olympic Stadium for the 1996 games before being converted to a baseball-only facility for the Braves. The Olympic cauldron from those games is nearby, and in the parking lot next door is a portion of the left-field wall over which Hank Aaron launched home run No. 715 in 1974 at the old Fulton County Stadium."
+      },
+      "statistics": {
+        "seatingCap": "49,586",
+        "playingSurface": "Grass",
+        "opened": "1996",
+        "distanceToCenter": "400ft",
+        "avgAttend": "24,073",
+        "typology": "Retro Classic"
+      },
+      "seating": {
+        "imageURL": "http://a.espncdn.com/i/travel/stadiums/seating/mlb_atl.png",
+        "general": "Sections 101-110, 117-118, 147, 223-224, 229, 321-322, 324, 330, 417-418, 421-422 and 437 are split between multiple Section Names. Tickets in these Sections not specified by Section Name by the seller will be mapped to the less premium portion of that Section."
+      }
+    },
+          {
 
+      "name" : "At&T Park",
+      "location": "24 Willie Mays Plaza, San Francisco CA, 94107",
+      "homeOf" : "San Francisco Giants",
+      "imageURL": [],
+      "overview": {
+        "history": "AT&T Park, the first privately financed Major League ballpark to be built in 38 years, is a classic urban ballpark with an old-time feel that was inspired by Wrigley Field and Fenway Park. This $357 million park is conveniently located to almost all public transit system servicing the San Francisco Bay area. A waterfront promenade allows free views of the game just beyond the right-field fence. The playing field is composed of a Kentucky bluegrass blend, with a crushed volcanic rock infield and rubberized tartan-surface warning track.",
+        "soakUpTheScene": "AT&T Park opened in 2000 to high praise for its classic look and feel, excellent sightlines and eclectic food offerings including the famous garlic fries. Besides all the amenities of a modern ballpark, there are great views of the bay from the upper deck and the opportunity to explore one of the coolest cities anywhere right outside the gates. And just beyond the right-field wall is McCovey Cove, the spot where locals invented one of the newest and most unique traditions in baseball, bobbing in their kayaks as they await home run balls. "
+      },
+      "statistics": {
+        "seatingCap": "41,915",
+        "playingSurface": "Grass",
+        "opened": "2000",
+        "distanceToCenter": "399",
+        "avgAttend": "41,492",
+        "typology": "Retro Classic"
+      },
+      "seating": {
+        "imageURL": "",
+        "general": "No alcohol (including non-alcoholic beer and wine) or illegal drugs may be brought into AT&T Park. Alcoholic beverages can be purchased once inside the ballpark, however the following restrictions apply: Beer sales on the Promenade Level, View Level and in all seats end after the seventh inning; After the seventh inning, if you purchase an alcoholic beverage in the Field Club or AAA Club Lounges, you must remain in that area while you consume your drink; All alcohol sales can be terminated at any time at the discretion of Giants management. Certified service dogs or service dogs in training for guests with disabilities are welcome at Pacific Bell Park. All other animals are prohibited. "Dog Day" afternoons and similar promotions are, of course, exceptions. Pacific Bell Park is a smoke-free facility. Smoking is limited to: The Plaza areas – Willie Mays, Lefty O'Doul, 2nd & King, Marina (center field); and AAA Club Level – Patio/wine bar areas only. Smoking is not permitted in any area of the Service, Promenade or Suite levels, Coca Cola Fan Lot, Centerfield, Arcade area and the Sega attraction area. During games, guests are permitted to leave the ballpark and return. Please get your hand stamped for re-entry at any of the park's gates. Guests must have their ticket and hand stamp to re-enter the ballpark."
+      }
+    },
+          {
+
+      "name" : "Marlins Park",
+      "location": "501 Marlins Way, Miami, Fla. 33125",
+      "homeOf" : "Florida Marlins",
+      "imageURL": [],
+      "overview": {
+        "history": "",
+        "soakUpTheScene": ""
+      },
+      "statistics": {
+        "seatingCap": "36,742",
+        "playingSurface": "Grass",
+        "opened": "2012",
+        "distanceToCenter": "407",
+        "avgAttend": "20,445",
+        "typology": "Contemporary"
+      },
+      "seating": {
+        "imageURL": "http://a.espncdn.com/i/travel/stadiums/seating/mlb_mia.png",
+        "general": ""
+      }
+    },
+          {
+
+      "name" : "Angel Stadium of Anaheim",
+      "location": "2000 Gene Autry Way, Anaheim CA, 92806",
+      "homeOf" : "Los Angeles Angels",
+      "imageURL": [],
+      "overview": {
+        "history": "Renovations to Anaheim Stadium began Oct. 1, 1996, reverting the 30-year old structure back to a baseball-only facility. On Sept. 15, 1997, the renovated stadium's new name was announced: Edison International Field of Anaheim. On Dec. 29, 2003, the Angels announced the stadium would be renamed Angel Stadium of Anaheim. Total cost for the stadium renovation was estimated at $118 million and the project was completed in time for opening day, April 1, 1998. The original Anaheim Stadium seated 43,204 (later 43,250). The stadium underwent construction in 1979-80 for additional seating to accommodate the Los Angeles Rams of the NFL. Upon completion in 1981, the stadium seated 65,158 (later 64,593) for baseball. The Rams played their last game here in 1994 before moving to St. Louis. Other unique features of the new Angel Stadium of Anaheim include terraced bullpens in the outfield, widened concourses, new restroom and concession areas, a spacious and modernized press box and broadcast booths, family-oriented seating sections (Left Field Pavilion), state-of-the-art club-level and dugout-level suites, the Pepsi Perfect Game Pavilion (a youth-oriented interactive game area) and landscaped courtyards (with statues in remembrance of Gene Autry and Michelle Carew).",
+        "soakUpTheScene": "Angel Stadium is located in suburban Anaheim, which isn't ideal for fans looking to do some pregame and postgame exploring in the area … unless, of course, your goal is Disneyland, which is right nearby. The ballpark itself is one of the oldest in the Majors now, but it's undergone various other renovations over the years and is a nice place to see a game."
+      },
+      "statistics": {
+        "seatingCap": "45,389",
+        "playingSurface": "Grass",
+        "opened": "1966",
+        "distanceToCenter": "396ft",
+        "avgAttend": "38,220",
+        "typology": "Retro Modern"
+      },
+      "seating": {
+        "imageURL": "",
+        "general": "Alcohol consumption in the stadium parking lot prior to the game is prohibited. No hard-sided coolers allowed inside the stadium. No weapons of any kind. The Angels team store number is (714) 940-2618, and its hours are Monday through Saturday, 10 a.m. to 5 p.m. There are more than 500 available wheelchair seating options. For information, call 888-796-4256."
+      }
+    },
+          {
+
+      "name" : "Kauffman STadium",
+      "location": "One Royal Way, Kansas City, MO 64129",
+      "homeOf" : "Kansas City Royals",
+      "imageURL": [],
+      "overview": {
+        "history": "Originally known as Royals Stadium, this ballpark is recognized throughout baseball as one the game's most beautiful. The stadium will be the site of the 2012 All-Star Game. It played host to the 1973 All-Star Game, playoff games in 1976, '77, '78, '80, '81, '84, and '85, and seven World Series tilts in 1980 and 1985. The stadium was renamed in honor of team owner Ewing M. Kauffman in July 1993; he passed away a month later. A grass playing field replaced the artificial surface at Kauffman Stadium prior to the 1995 season. A $250 million dollar renovation, completed in 2009, brought wider concourses, more concessions and restrooms, new seating areas, a Royals Hall of Fame building, and the spectacular 84' by 104' Crown Vision HD scoreboard.",
+        "soakUpTheScene": "Pick up some Kansas City barbeque and join tailgaters outside "The K" while awaiting the start of the game. This park is located next door to Arrowhead Stadium, home of the Chiefs, so there are plenty of parking spots. Hit the Negro Leagues Baseball Museum in downtown at some point during your visit."
+      },
+      "statistics": {
+        "seatingCap": "37,903",
+        "playingSurface": "Grass",
+        "opened": "1973",
+        "distanceToCenter": "410ft",
+        "avgAttend": "32,745",
+        "typology": "Retro Modern"
+      },
+      "seating": {
+        "imageURL": "",
+        "general": "Stadium turnstiles open one hour prior to the game on Mondays, Tuesdays and Thursdays and 90 minutes prior to the game on Fridays, Saturdays and Sundays. On Wednesday (Student Night), Gate E opens 90 minutes prior to the game, while all other gates open one hour prior to the game."
+      }
+    },
+          {
+
+      "name" : "Miller Park",
+      "location": "One Brewers Way, Milwaukee, WI 53214",
+      "homeOf" : "Milwaukee Brewers",
+      "imageURL": [],
+      "overview": {
+        "history": "Miller Park is the only stadium in North America to feature a convertible, fan-shaped roof, guaranteeing that baseball will be played, even on the most inclement of Wisconsin days. Construction began in October 1996, with the ballpark funded by a sales tax in five counties. The Brewers contributed $90 million to the project, including a 20-year naming rights deal with the Miller Brewing Co. Miller Park is a four-tier seating bowl consisting of the field level, loge level, club level and terrace level. The playing surface is natural grass.",
+        "soakUpTheScene": "Drive up to Miller Park a couple of hours before opening pitch and you'd think there was a football game going on inside that day. Tailgating is a big part of game day in Milwaukee, with Brewers fans filling the parking lot before every game grilling up bratwurst and sausages and enjoying their favorite beverages. Miller products are highlighted inside the park, but there also is a fine selection of local micro-brews on tap."
+      },
+      "statistics": {
+        "seatingCap": "41,900",
+        "playingSurface": "Grass",
+        "opened": "2001",
+        "distanceToCenter": "400ft",
+        "avgAttend": "27,751",
+        "typology": "Retro Modern"
+      },
+      "seating": {
+        "imageURL": "http://a.espncdn.com/i/travel/stadiums/seating/mlb_mil.png",
+        "general": "Guests are permitted to bring cameras and video equipment into Miller Park, provided that they are intended for personal use only. Taping of any game footage is strictly prohibited. Guests are not permitted to stand in the aisles, wells or walkways, or obstruct others from viewing the game while taking photographs. Tripods and monopods for photographic equipment are not permitted. Glass containers, cans and alcohol are not permitted in Miller Park during any Brewers games. Backpacks, large bags and coolers of any size are also prohibited."
+      }
+    },
+    {
+
+    "name" : "Great American Ballpark",
+    "location": "100 Joe Nuxhall Way, Cincinnati OH, 45202",
+    "homeOf" : "Cincinnati Reds",
+    "imageURL": [],
+    "overview": {
+      "history": "The 2003 season was the first for the Reds in their $290 million ballpark after Riverfront Stadium was imploded Dec. 29, 2002. It featured the third-largest scoreboard in the major leagues. The custom-grown Kentucky Bluegrass sod was grown within a synthetic plastic micromesh carpet for durability.",
+      "soakUpTheScene": "Great American is located downtown next to the Ohio River and the now-gone Riverfront Stadium, home to the Big Red Machine teams of the 1970s. Fans can park across the river at an entertainment district in Kentucky, then walk over the Purple People Bridge to the game or take a water taxi."
+    },
+    "statistics": {
+      "seatingCap": "42,319",
+      "playingSurface": "Grass",
+      "opened": "2003",
+      "distanceToCenter": "404",
+      "avgAttend": "22,029",
+      "typology": "Retro Modern"
+      },
+      "seating": {
+        "imageURL": "http://a.espncdn.com/i/travel/stadiums/seating/mlb_cin.png",
+        "general": "Dugout Box seating in Sections 114 and 132 includes Rows A to E. Dugout Box seating in Sections 115-119 and 127-131 includes Rows F to J. Tickets not specified by the seller as Dugout Box will be mapped to the Infield Box portion of that section.Suite tickets must be specified as Lower Luxury Suites, Upper Luxury Suites or Triple Play Luxury Suites in order to map properly."
+      }
+    },
+    {
+
+    "name" : "Wrigley Field",
+    "location": "1060 W. Addison St, Chicago IL, 60613",
+    "homeOf" : "Chicago Cubs",
+    "imageURL": [],
+    "overview": {
+      "history": "Wrigley Field was built in 1914 and is the second-oldest ballpark in the major leagues behind Boston's Fenway Park (1912). Originally known as Weeghman Park, Wrigley Field was the site of Babe Ruth's historic 'called shot,' when he allegedly pointed to the outfield bleachers during the 1932 World Series, then hit Charlie Root's next pitch for a homer. One tradition of Wrigley Field is the flying of a flag bearing "W" or "L" atop the scoreboard after a game. A white flag with a blue "W" indicates a victory; a blue flag with a white "L" denotes a loss.",
+      "soakUpTheScene": "It's been said before, but every baseball fan should make a pilgrimage to Wrigley Field at least once. It's the definition of a classic ballpark, and right outside are dozens of bars and restaurants that turn the neighborhood into a festival every game day. It should be at or near the top of every fan's list."
+    },
+    "statistics": {
+      "seatingCap": "41,159",
+      "playingSurface": "Grass",
+      "opened": "1914",
+      "distanceToCenter": "400ft",
+      "avgAttend": "37,879",
+      "typology": "Jewel Box"
+      },
+      "seating": {
+        "imageURL": "http://a.espncdn.com/i/travel/stadiums/seating/mlb_chc.png",
+        "general": ""
+      }
+    },
+    {
+
+    "name" : "Petco Park",
+    "location": "100 Park Blvd., San Diego CA, 92101",
+    "homeOf" : "San Diego Padres",
+    "imageURL": [],
+    "overview": {
+      "history": "Petco Park opened April 8, 2004, replacing Qualcomm Stadium, home of the Padres since their inaugural season in 1969. A baseball-only facility with a natural-grass field, Petco Park is part of a revitalized downtown and East Village district composed of offices, hotels and residential homes. The $458 million ballpark combines beautiful architecture and innovative design features, including the Park at the Park – a nearly three-acre parcel of land that serves as a neighborhood park on a daily basis. State-of-the-art fan amenities suit every taste and budget, offering a relaxed, yet dynamic atmosphere that reflects the unique charm and spirit of San Diego.",
+      "soakUpTheScene": "Leave plenty of time to explore San Diego's historic Gaslamp Quarter when going to a game here. There are bars and restaurants galore in the surrounding neighborhood, and inside the park it's pretty nice, too. Petco may have a goofy name but it's a beautiful facilty that kept the Padres in San Diego."
+    },
+    "statistics": {
+      "seatingCap": "42,500",
+      "playingSurface": "Grass",
+      "opened": "2004",
+      "distanceToCenter": "396ft",
+      "avgAttend": "28,415",
+      "typology": "Retro Modern"
+      },
+      "seating": {
+        "imageURL": "",
+        "general": ""
+      }
+    },
+    {
+
+    "name" : "Citi Field",
+    "location": "126th Street and Roosevelt Avenue, Flushing NY, 11368",
+    "homeOf" : "New York Mets",
+    "imageURL": [],
+    "overview": {
+      "history": "Improved amenities and comfort for fans were obvious keys to the design of Citi Field; to create extra leg room and aisle space the ballpark actually holds some 15,000 fewer fans than did its predecessor, Shea Stadium. In November 2006 the Mets and financial services company Citigroup partnered in the marketing and business venture that is Citi Field. Part of the cost of building the stadium came from taxpayer funds, and according to information provided by StubHub! and the Mets' Web site, the facility was designed as a pitcher's park with a huge outfield and its brick exterior is reminiscent of Ebbets Field. And never far from the hearts of many Mets fans will be Shea Stadium, which opened in 1964, was named after attorney William Shea, who helped bring the Mets franchise to New York in 1962, and was situated just an 8-2 throw away from Citi Field.",
+      "soakUpTheScene": "
+Citi Field is New York's 'other' new ballpark, built just beyond the outfield fence of old Shea Stadium. Designers incorporated features from long-gone parks like Ebbets Field, and the atmosphere is more intimate than at Shea. In fact, the move means about 15,000 fewer seats, so the ticket supply will be tighter. But the park ensures the Mets will remain in Queens for decades to come."
+    },
+    "statistics": {
+      "seatingCap": "41,922",
+      "playingSurface": "Grass",
+      "opened": "2009",
+      "distanceToCenter": "408ft",
+      "avgAttend": "33,549",
+      "typology": "Retro Clasic"
+      },
+      "seating": {
+        "imageURL": "http://a.espncdn.com/i/travel/stadiums/seating/mlb_nym.png",
+        "general": "StubHub! will be updating its seating information for the new stadium in the near future"
+      }
+    },
+    {
+
+    "name" : "Nationals Park",
+    "location": "1500 S. Capitol St. S.E., Washington, DC 20003",
+    "homeOf" : "Washington Nationals",
+    "imageURL": [],
+    "overview": {
+      "history": "The exterior facade of the venue features a design of steel, glass and pre-cast concrete that reflects the architecture of Washington, D.C. The concourses and seating decks are configured to create a variety of distinct neighborhoods, each with its own identity and viewing experience. The park offers panoramic views of the riverfront, the Navy Yard, the surrounding city and important landmarks, including the Capitol and the Washington Monument. Nationals Park features a 4,811-square-foot high-definition scoreboard and more than 600 linear feet of LED ribbon board along the inner bowl fascia.",
+      "soakUpTheScene": "
+Nationals Park is a vast improvement over old RFK Stadium, and Nats fans are hoping for a winning team to someday cheer at this beautiful facility. Be in your seat in the middle of the fourth inning for the racing presidents, Washington, Jefferson, Lincoln and Roosevelt (Teddy, that is)."
+    },
+    "statistics": {
+      "seatingCap": "41,506",
+      "playingSurface": "Grass",
+      "opened": "2008",
+      "distanceToCenter": "402",
+      "avgAttend": "27,617",
+      "typology": "Retro Modern"
+      },
+      "seating": {
+        "imageURL": "",
+        "general": "Center Field gates will open 2½ hours prior to the start of the game, allowing fans into the Center Field stands and concourse areas to take in the Nationals' and visitors' batting practice. Ninety minutes prior to the start of the game all other gates and areas of the park will open."
+      }
+    },
+    {
+
+    "name" : "Oriole Park at Camden Yards",
+    "location": "333 W. Camden St., Baltimore MD, 21201",
+    "homeOf" : "Baltimore Orioles",
+    "imageURL": [],
+    "overview": {
+      "history": "Oriole Park at Camden Yards became the official home of the Orioles on April 6, 1992. This baseball-only facility contains a sunroof over the gentle slope of the upper deck, a natural-grass turf covering a sophisticated irrigation and drainage system and an asymmetrical playing field. The $110 million ballpark, built in 33 months, was designed by the Kansas City architectural firm of Helmuth, Obata & Kassabaum",
+      "soakUpTheScene": "This is the original retro park and still the one all others are measured against. Hit the nearby Babe Ruth Birthplace and Museum on the way to the game and Boog's Barbeque when inside; it's run by former Oriole star Boog Powell and serves up some of the best ballpark food anywhere."
+    },
+    "statistics": {
+      "seatingCap": "45,971",
+      "playingSurface": "Grass",
+      "opened": "1992",
+      "distanceToCenter": "410ft",
+      "avgAttend": "23,147",
+      "typology": "Retro Classic"
+      },
+      "seating": {
+        "imageURL": "",
+        "general": "For tour information, call 410-547-6234. Concessions: food, binoculars and alcohol are available. Restrooms are all handicapped accessible."
+      }
+    },
+    {
+
+    "name" : "Safeco Field",
+    "location": "1250 First Ave. St., Seattle WA, 98134",
+    "homeOf" : "Seattle Mariners",
+    "imageURL": [],
+    "overview": {
+      "history": "Safeco Field's one-of-a-kind retractable roof is designed to cover, but not enclose the ballpark, and preserve an open-air environment. A natural-grass custom blend of four types of Kentucky bluegrass and two kinds of perennial ryegrass make up the field. This combination was selected to provide the optimal playing surface for the athletes, the retractable roof and the Northwest climate. Safeco Field is one of the most sustainably operated ballparks in MLB. The Mariners recycle more than 70 percent of all waste generated during a game and have reduced consumption of water, electricity and natural gas significantly since 2006, giving Safeco Field the lowest 'energy intensity' among MLB ballparks, according to team officials.",
+      "soakUpTheScene": "Come hungry because Safeco Field has an excellent selection of food and some great local micro-brews on tap. Try an Ivar Dog, a unique take on the traditional ballpark dog that's actually fried cod. And visit the newly remodeled 'Pen, with concessions by three popular chefs, including Seattle's Ethan Stowell. Safeco is located just south of downtown, next door to Qwest Field, home of the Seahawks. "
+    },
+    "statistics": {
+      "seatingCap": "47,447",
+      "playingSurface": "Grass",
+      "opened": "1999",
+      "distanceToCenter": "401ft",
+      "avgAttend": "27,220",
+      "typology": "Retro Modern"
+      },
+      "seating": {
+        "imageURL": "http://a.espncdn.com/i/travel/stadiums/seating/mlb_sea.png",
+        "general": "Beverages, bottles and cans: No outside beverages will be permitted into Safeco Field, with the exceptions of baby bottles/formula; unopened, soft-sided, single-serve containers of drinks (such as small milk cartons, cardboard juice boxes or foil pouches), and medication or other special needs, including specially distilled or purified water (supported by appropriate documentation). Guests may bring in empty, plastic, sports-type bottles and fill them at any of the 75 drinking fountains located throughout the ballpark. Food: The Mariners will allow guests to bring food into Safeco Field subject to the following limitations: All food items should be wrapped, bagged or inside a container to avoid spillage. Food that could be thrown as a projectile (oranges, apples and other fruit) should be sliced or quartered. Food should be consumed in general seating or designated picnic areas. Food may not be brought into any of the ballparks restaurants, lounges or suites. Food containers must be small enough to fit under the guests seat. (This generally means no containers larger than 10x16x13.) Bottles, cans, thermoses and jugs are prohibited. Other prohibited items: Beach balls, helium balloons, picnic baskets, laser pointers, noisemakers, air horns and weapons."
+      }
+    },
+    {
+
+    "name" : "Target Field",
+    "location": "1 Twins Way, Minneapolis MN, 55403",
+    "homeOf" : "Minnesota Twins",
+    "imageURL": [],
+    "overview": {
+      "history": "Target Field, named after one of America's largest retailers, replaced the Hubert H. Humphrey Metrodome as the home of the Twins in 2010. Built at a cost approaching $545 million, the stadium is the end result of a decade-long battle to replace the Metrodome as the franchise overcame talks of contraction and relocation. The new stadium was approved by the Minnesota state legislature in May 2006. Located in the downtown Warehouse District, Target Field is an open-air grass stadium, marking the first time the Twins will play outdoor games at home since 1981 at Metropolitan Stadium, which was replaced by the Mall of America. According to the team's Web site, the stadium's exterior 'is a modern interpretation of the state's natural creations' and features Minnesota limestone, native trees and other flora.",
+      "soakUpTheScene": "Target Plaza, the gateway to the stadium, features statues of Kirby Puckett, Rod Carew, Tony Oliva and Harmon Killebrew, in addition to a 1,500-pound Gold Glove that pays tribute to the team's commitment to solid defense. After each Twins home run, the team's original 'Shaking Hands' logo, with characters Minnie and Paul, will light up in center field. The stadium also affords views of the downtown skyline. Concourses are twice as wide as the Metrodome's -- 44 feet compared with 22."
+    },
+    "statistics": {
+      "seatingCap": "39,500",
+      "playingSurface": "Grass",
+      "opened": "2010",
+      "distanceToCenter": "404ft",
+      "avgAttend": "24,186",
+      "typology": "Retro Modern"
+      },
+      "seating": {
+        "imageURL": "",
+        "general": ""
+      }
+    },
+    {
+
+    "name" : "PNC Park",
+    "location": "115 Federal St., Pittsburgh PA, 15212",
+    "homeOf" : "Pittsburgh Pirates",
+    "imageURL": [],
+    "overview": {
+      "history": "
+PNC Park is the first ballpark with a two-deck design to be built in the United States since Milwaukee's County Stadium was completed in 1953. The highest seat in the stadium is but 88 feet from the field; it's all part of an intimate layout to provide optimal sight lines. PNC Park serves as the fifth home of the Pittsburgh Pirates since their inception in 1887. The total cost of the ballpark was $262 million. The outfield wall rises up to 21 feet behind right field (in honor of the Pirates legendary right fielder Roberto Clemente, who wore jersey 21) and drops down to just six feet in front of the left-field bleachers. From home plate to the Allegheny River is 443 feet, 4 inches.",
+      "soakUpTheScene": "Park your car across the river and join other fans in walking across the Roberto Clemente Bridge to the game. Once inside, grab an Iron City beer and enjoy views of the Pittsburgh skyline and some of those prominent bridges. Sadly, the Pirates are perennial losers now, but that just makes it easier for fans of opposing teams to invade. "
+    },
+    "statistics": {
+      "seatingCap": "38,362",
+      "playingSurface": "Grass",
+      "opened": "2001",
+      "distanceToCenter": "399ft",
+      "avgAttend": "25,288",
+      "typology": "Retro Classic"
+      },
+      "seating": {
+        "imageURL": "http://a.espncdn.com/i/travel/stadiums/seating/mlb_pit.png",
+        "general": "Guest conduct: PNC Park is a fan-friendly, family environment. We are committed to creating a safe, comfortable and enjoyable ballpark experience for everyone. Our staff will proactively intervene to support an environment where: The progress of the game will not be disrupted by guests' actions or unauthorized persons on the playing field; Obscene or indecent clothing will not detract from the guest experience; Guests will enjoy the baseball experience free from foul/abusive language or obscene gestures; Guests will refrain from displays of affection not appropriate in a public, family setting; Intervention with an impaired or intoxicated guest will be handled in a prompt and safe manner; Guests will show their tickets when requested and sit only in their ticketed seats."
+      }
+    },
+    {
+
+    "name" : "Citizen's Bank Park",
+    "location": "One Citizens Bank Way, Philadelphia PA, 19148",
+    "homeOf" : "Philadelphia Phillies",
+    "imageURL": [],
+    "overview": {
+      "history": "Citizens Bank Park opened April 12, 2004, as a world-class facility far improved from Veterans Stadium, the Phillies' home since 1971. Designed by two leading architectural firms – Ewing Cole Cherry Brott and HOK Sport – the ballpark combines Philadelphia's rich tradition of sports architecture with unmistakably modern style. The $336 million, baseball-only stadium has a natural grass field, multi-angled 'bowl style' seating, breathtaking views, dazzling amenities and a staggering array of special, fan-friendly features.",
+      "soakUpTheScene": "Citizens Bank Park is located in Philadelphia's South Side stadium complex next to the homes of the Eagles, Sixers and Flyers. Come hungry because an effort's been extended to highlight local cuisine, including hoagies and cheesesteaks. Ashburn Alley is an outfield concourse of shops and concessions named for Phils' legend Richie Ashburn, and a highlight there is Bulls' BBQ, where you may find former Phils' slugger Greg 'The Bull' Luzinski hanging out."
+    },
+    "statistics": {
+      "seatingCap": "43,647",
+      "playingSurface": "Grass",
+      "opened": "2004",
+      "distanceToCenter": "401ft",
+      "avgAttend": "25,030",
+      "typology": "Retro Classic"
+      },
+      "seating": {
+        "imageURL": "http://a.espncdn.com/i/travel/stadiums/seating/mlb_phi.png",
+        "general": "The ballpark is home to numerous food and beverage concessions, including Harry the K's, The High & Inside Pub and McFadden's Restaurant & Saloon. Citizens Bank Park was designed to be universally accessible and comfortable for all guests. The stadium features angled seating and offers views of the Philadelphia skyline. The Citizens Park Liberty Bell rings after every Phillies home run."
+      }
+    },
+    {
+
+    "name" : "Busch Stadium",
+    "location": "700 Clark St., St Louis, MO 63102",
+    "homeOf" : "St. Louis Cardinals",
+    "imageURL": [],
+    "overview": {
+      "history": "Ground breaking took place Jan. 17, 2004, and the $365 million opened for business April 4, 2006. Designed by HOK Sport and built by Hunt Construction, it is the third ballpark in St. Louis to carry the name Busch Stadium. Sportsman's Park was renamed Busch Stadium in 1953, after team owner Gussie Busch. The first Busch closed in 1966, and both the baseball Cardinals, and the NFL's St. Louis Cardinals moved to a new, multi-purpose stadium, named Busch Memorial Stadium. (Busch Memorial Stadium was razed in late 2005.) The playing field at the current Busch Stadium is bluegrass and the outfield wall is 8 feet high.",
+      "soakUpTheScene": "'Meet me at the Musial statue!'' That's a common phrase for Cardinals fans and others headed to Busch Stadium. The statue of Cardinals great Stan Musial sits outside Gate 3 of this new park, which kept the same name as the old one and is also downtown in sight of the Arch. Another thing that hasn't changed is the passionate fan base that packs the place to see their Cards. "
+    },
+    "statistics": {
+      "seatingCap": "43,975",
+      "playingSurface": "Grass",
+      "opened": "2006",
+      "distanceToCenter": "400ft",
+      "avgAttend": "43,104",
+      "typology": "Retro Modern"
+      },
+      "seating": {
+        "imageURL": "http://a.espncdn.com/i/travel/stadiums/seating/mlb_stl.png",
+        "general": "Busch Stadium opens two hours prior to game time. All necessary gates will be open at this time and all levels and areas of the park will be open. Spectators are not permitted on any part of the playing field. Spectators are also not permitted to throw anything onto the field; this is a St. Louis City Ordinance and persons who violate this ordinance will be arrested and prosecuted."
+      }
+    },
+    {
+
+    "name" : "Minute Maid Park",
+    "location": "501 Crawford St.",
+    "homeOf" : "Houston Astros",
+    "imageURL": [],
+    "overview": {
+      "history": "
+Minute Maid Park, with its cutting-edge technology and classic architecture, opened in 2000. The $248 million facility has a retractable roof and 50,000 square feet of glass in the west wall of the roof that provides the fans a view of the Houston skyline, even when closed. Seats along the right-field and left-field lines are five feet from the line. Natural Bermuda grass covers the 2.5-acre playing surface.",
+      "soakUpTheScene": "This retractable roof stadium in downtown Houston has been nicknamed the Juice Box, but trains are the theme. Fans enter through the refurbished Union Station and a replica locomotive runs on a track above left field. Also, fans can now take a light rail line to the game, although this is Houston so most are driving. "
+    },
+    "statistics": {
+      "seatingCap": "40,963",
+      "playingSurface": "Grass",
+      "opened": "2000",
+      "distanceToCenter": "436ft",
+      "avgAttend": "27,167",
+      "typology": "Retro Modern"
+      },
+      "seating": {
+        "imageURL": "http://a.espncdn.com/i/travel/stadiums/seating/mlb_hou.png",
+        "general": ""
+      }
+    },
+    {
+
+    "name" : "U.S. Cellular Field",
+    "location": "333 W. 35th St., Chicago IL, 60616",
+    "homeOf" : "Chicago White Sox",
+    "imageURL": [],
+    "overview": {
+      "history": "In 2003, the White Sox and U.S. Cellular forged a partnership, allowing for dramatic renovations to the stadium in the next several years. Several renovations, including a new video board in center field and a 'fan deck,' were made prior to the 2003 season. Formerly known as Comiskey Park, U.S. Cellular Field opened April 18, 1991, and was the first new sports facility built in Chicago since Chicago Stadium in 1929. The ballpark features a 53-foot-wide, by 28-foot-tall video screen. The park has been used in many commercials and several movies, including 'My Best Friend's Wedding' and 'Major League II.' The playing field is composed of bluegrass sod, with three different blends of grass. The infield consists of dirt transported from the original park.",
+      "soakUpTheScene": "The Cell may play second fiddle to that ballpark on the North Side of town, but it's got a lot going for it. There're some pretty good eats, the famous exploding scoreboard and a hearty and underappreciated fan base. The team took eight rows off the much-criticized upper deck, but it's still too steep and high."
+    },
+    "statistics": {
+      "seatingCap": "40,615",
+      "playingSurface": "Grass",
+      "opened": "1991",
+      "distanceToCenter": "400ft",
+      "avgAttend": "19,777",
+      "typology": "Retro Modern"
+      },
+      "seating": {
+        "imageURL": "",
+        "general": "The ballpark normally opens 1½ hours prior to game time. Consult the schedule for game times."
+      }
+    },
+    {
+
+    "name" : "Tropicana Field",
+    "location": "One Tropicana Drive, St. Petersburg FL, 33705",
+    "homeOf" : "Tampa Bay Rays",
+    "imageURL": [],
+    "overview": {
+      "history": "Though originally built for baseball, there have been 16 other sports and competitions played at Tropicana Field, which originally was named the Florida Suncoast Dome and later became known as the ThunderDome. The facility was renamed Oct. 4, 1996, in accordance with a naming rights agreement between the Rays and Tropicana Dole Beverages North America. Tropicana Field closed in October 1996 for a 17-month, $85 million renovation that included adding 319,000 square feet of space. The roof of the dome is lit orange after a Rays win. Unique to the stadium are a touch tank of live rays for fans to feed (free), the Ted Williams Museum & Hitters Hall of Fame (also free for fans attending games) and a cigar bar.",
+      "soakUpTheScene": "This domed stadium in downtown St. Petersburg may be the antithesis of the classic ballpark, but at least the locals have a winning team on the field for the first time. The tilted roof is lit orange after a Rays win and there are live rays swimming in a tank in the outfield, which is worth a look. And a good sports bar, Ferg's, is close by."
+    },
+    "statistics": {
+      "seatingCap": "31,042",
+      "playingSurface": "Astrturf",
+      "opened": "1990",
+      "distanceToCenter": "404ft",
+      "avgAttend": "16,889",
+      "typology": "Multipurpose"
+      },
+      "seating": {
+        "imageURL": "",
+        "general": ""
+      }
+    },
+    {
+
+    "name" : "Oakland Coliseum",
+    "location": "7000 Coliseum Way, Oakland CA, 94621",
+    "homeOf" : "Oakland Atheltics",
+    "imageURL": [],
+    "overview": {
+      "history": "The stadium made its debut in baseball in 1968. It was built circular, with three decks and no roof. This very plain and drab stadium underwent a $120 million renovation in 1995 that added 22,000 new seats, 90 luxury suites, two private clubs and two state-of-the-art scoreboards. The first crowd filled the stadium on Sept. 8, 1966, when the AFL's Raiders played the Kansas City Chiefs. The A's, who had moved from Kansas City, followed suit on April 17, 1968.",
+      "soakUpTheScene": "The A's have called this spacious park home for more than 40 years and share it with the Raiders. Tailgating is popular before games in the surrounding parking lots."
+    },
+    "statistics": {
+      "seatingCap": "35,067",
+      "playingSurface": "Grass",
+      "opened": "1966",
+      "distanceToCenter": "400ft",
+      "avgAttend": "18,329",
+      "typology": "Multipurpose"
+      },
+      "seating": {
+        "imageURL": "http://a.espncdn.com/i/travel/stadiums/seating/mlb_oak.png",
+        "general": "O.co Coliseum is the only major entertainment facility with a stop on the BART. Alcohol beverages, weapons of any kind, fireworks and video cameras are among the items prohibited from the venue."
+      }
+    },
+    {
+
+    "name" : "Dodger Stadium",
+    "location": "1000 Elysian Park Ave., Los Angeles CA, 90012",
+    "homeOf" : "Los Angeles Dodgers",
+    "imageURL": [],
+    "overview": {
+      "history": "This historic stadium has played host to the 1980 All-Star game and Olympic baseball competition in 1984. In 1991, the stadium hosted the opening ceremonies for the United States Olympic Festival and later that summer showcased the top amateur baseball players from around the world in the second annual International Baseball Association World All-Star Game. The stadium was built by Dodger owner Walter O'Malley in Chavez Ravine, which overlooks downtown Los Angeles. Foodies will delight in the all-you-can-eat ticket deal for the Right Field Pavilion, which was a first in baseball when it debuted but has since been copied by other teams.",
+      "soakUpTheScene": "This park opened in 1962 and is now one of the oldest in the Majors, but the setting in Chavez Ravine remains one of the best in baseball. Bring some headphones and tune in the incomparable Vin Scully calling the game on the radio. And try a Dodger Dog to see if it lives up to the hype. Can so many Dodgers fans be wrong?"
+    },
+    "statistics": {
+      "seatingCap": "56,000",
+      "playingSurface": "Grass",
+      "opened": "1962",
+      "distanceToCenter": "400ft",
+      "avgAttend": "Modern",
+      "typology": "45,465"
+      },
+      "seating": {
+        "imageURL": "http://a.espncdn.com/i/travel/stadiums/seating/mlb_lad.png",
+        "general": "Glass bottles, cans, umbrellas and alcoholic beverages are strictly prohibited. A visual inspection of bags, purses, packages and jackets will be conducted on everyone entering the stadium. Guests without items to be inspected can enter in the Express Lane for a faster entry into the stadium. Tailgating is prohibited on Dodger Stadium property at all times."
+      }
+    }
   ]
  }
