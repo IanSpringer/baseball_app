@@ -1,0 +1,21 @@
+{
+  "name": "project4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IanSpringer/baseball_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IanSpringer/baseball_app/issues"
+  },
+  "homepage": "https://github.com/IanSpringer/baseball_app#readme"
+}
