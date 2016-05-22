@@ -1,0 +1,183 @@
+
+ // name: String,
+ //  location: String,
+ //  homeOf: String,
+ //  imageURL: [{type: String}],
+ //  overview: {
+ //    history: String,
+ //    soakUpTheScene: String,
+ //  },
+ //  statistics: String,
+ //  seating: {
+ //    imageURL: String,
+ //    general: String
+ //    }
+ //  });
+
+ {
+  "stadiums": [
+    {
+      "name" : "Coors Filed",
+      "location": "2001 Blake St. Denver, CO 80205",
+      "homeOf" : "Colorado Rockies",
+      "imageURL": [],
+      "overview": {
+        "history": "This $215 million park was originally designed to seat 43,800. But after Mile High Stadium had experienced record numbers in 1993-'94, Rockies ownership paid to increase the capacity to more than 50,000 for facility's debut in 1995. Some 120,000 square feet of sod that covers the field is grown at Graff Turf Farms in Fort Morgan, Colo. It's a mixture of four bluegrass and two rye-grass strains. The playing field has 45 miles of wiring for an underground heating system, which enables groundskeepers to quickly melt any snow accumulation.",
+        "soakUpTheScene": "Climb up to the 20th row of the upper deck at Coors Field, which is painted purple in a sea of green seats, and you'll be exactly one mile above sea level. And if you're really brave, grab some Rocky Mountain oysters from a concession stand. Despite the park's name, there's a wide variety of brews to choose from to wash them down. Located in Denver's bustling LoDo district, there are many bars, restaurants and cafes a short stroll away."
+        },
+      "statistics": {
+
+        "seatingCap": "50,398",
+        "playingSurface": "Grass",
+        "opened": "1995",
+        "distanceToCenter": "415ft",
+        "avgAttend": "30,125",
+        "typology": "Retro Classic"
+      },
+      "seating": {
+        "imageURL": "http://a.espncdn.com/i/travel/stadiums/seating/mlb_col.png",
+        "general": "Normal gate-opening time is two hours prior to the first pitch. Guests are encouraged to come early and watch batting practice, infield workouts and pregame ceremonies. Gate-opening times may vary if a game is rescheduled. The Colorado Rockies are committed to creating a safe, comfortable and enjoyable ballpark experience. Our staff will proactively intervene to ensure the following: Obscene or indecent clothing will not detract from the guest experience. Guests will enjoy the baseball experience free from foul/abusive language or obscene gestures. Guests will refrain from displays of affection not appropriate in a public, family setting. Impaired or intoxicated guests will be assisted in a prompt, respectful and safe manner. Guests will show their ticket when requested and sit only in their ticketed seat. The progress of the game will not be disrupted by guests actions or unauthorized persons on the playing field."
+      }
+    },
+
+    {
+      "name" : "Globe Life Park in Arlington",
+      "location": "1000 Ballpark Way Arlington, TX 76011",
+      "homeOf" : "Texas Rangers",
+      "imageURL": [],
+      "overview": {
+        "history": "The agreement between the Rangers and the city of Arlington to build a new ballpark was announced October 24, 1990. The facility was named The Ballpark in Arlington on Sept. 28, 1993. This $191 million complex also includes a baseball museum, a children's learning center and a four-story office building within the ballpark, as well as a youth baseball park, 12-acre lake, and parks and recreation space on the perimeter. The stadium's name was changed to Ameriquest Field in Arlington for the 2005 season. In March 2007, the team severed a 30-year naming rights deal with struggling lender Ameriquest Mortgage Co. and rebranded their home field as Rangers Ballpark in Arlington. The Rangers signed a 10-year deal naming-rights deal with an insurance company in February 2014, renaming the stadium Global Life Park in Arlington. The field consists of Bermuda Tifway 419, sod of which was grown on Tri-Tex Turf Farms in Granbury, Texas.",
+        "soakUpTheScene": "The Legends of the Game museum behind the right-field bleachers has many items on loan from Cooperstown and is worth a visit when seeing the Rangers play. The park is located in suburban Arlington, and the Cowboys are opening a new stadium nearby in 2009. For more on the Globe Life Park in Arlington experience, including a game-day itinerary, visit Wise Guides."
+        },
+      "statistics": {
+
+        "seatingCap": "48,114",
+        "playingSurface": "Grass",
+        "opened": "1994",
+        "distanceToCenter": "400ft",
+        "avgAttend": "30,125",
+        "typology": "Retro Classic"
+      },
+      "seating": {
+        "imageURL": "http://a.espncdn.com/i/travel/stadiums/seating/mlb_tex.png",
+        "general": "No pets, cans, glass bottles or alcohol are permitted. Coolers not larger than 16"x16" are permitted; you may bring in food and drinks in plastic containers. Handheld models of radios and TVs are permitted, as long as they do not interfere with other fans. Camera and video equipment is OK if handheld, but no flash, tripods or video reproduction of games. Smoking is not allowed in seating areas. There are designated areas in the concourse, which is the wide aisle along the outer wall of the ballpark."
+      }
+    },
+
+    {
+      "name" : "Fenway Park",
+      "location": "Four Yawkey Way, Boston, MA 02215",
+      "homeOf" : "Boston Red Sox",
+      "imageURL": [],
+      "overview": {
+        "history": "Fenway Park opened in 1912 and is the oldest ballpark in the major leagues. Known for its Green Monster, a 37-foot-high wall that extends straight from left field to center field, Fenway Park has one of the last hand-operated scoreboards in baseball in the left-field wall. Green and red lights are used to signal balls, strikes and outs. The Red Sox added 269 new seats atop The Monster for the 2003 season.",
+        "soakUpTheScene": "The seats are cramped, the facilities ancient and the tickets are some of the most expensive in baseball. Now that that's out of the way, every baseball fan should make it to Fenway at least once. This oldest park in the Majors is a living museum to America's pastime and home to the best team in baseball in the new century. And right outside the door are some great sports bars."
+      },
+      "statistics": {
+        "seatingCap": "37,949",
+        "playingSurface": "Grass",
+        "opened": "1912",
+        "distanceToCenter": "420ft",
+        "avgAttend": "30,125",
+        "typology": "Jewel Box"
+      },
+      "seating": {
+        "imageURL": "http://a.espncdn.com/i/travel/stadiums/seating/mlb_bos.png",
+        "general": "No inflatable objects of any kind, alcoholic beverages, bottles, cans or personal firearms will be permitted in the ballpark. Any fan who directly or indirectly interferes with the enjoyment of the game will be promptly ejected from Fenway Park and may be subject to arrest and prosecution by the Boston Police. Fans are also reminded that anyone observed with offensive articles will be promptly ejected from the park. Such conduct is reprehensible and will not be tolerated. Disorderly behavior will result in appropriate action by the Boston Police. The club is committed to maintaining a high level of morality and denounces all forms of misconduct. The Red Sox will continue to make every effort to ensure socially acceptable behavior in order to allow all fans to enjoy the game in comfort."
+      }
+    },
+
+    {
+      "name" : "Progressive Field",
+      "location": "2401 Ontario St., Cleveland, OH 44115",
+      "homeOf" : "Cleveland Indians",
+      "imageURL": [],
+      "overview": {
+        "history": "Baseball in Cleveland is one of the city's oldest traditions, dating to 1869. After buying the Indians in 1986, owners Richard Jacobs and his late brother David committed to building a winning formula in Cleveland. This plan included creating a world-class, baseball-only ballpark. The owners' vision became a reality in 1994, when Progressive Field (formerly known as Jacobs Field) opened. This urban ballpark is located within the physical boundaries of three main streets in downtown Cleveland. Progressive Field has already provided the city with many great memories, including the Indians' clinching their first division title Sept. 8, 1995, and Tony Pena's game winning-homer in the 13th inning in Game 1 of the Division Series against Boston on Oct. 3, 1995, to give the Tribe its first postseason win since Oct. 11, 1948. The playing field is a natural-grass blend of Kentucky bluegrass. Lawrence Dolan and family trusts purchased the team in 2001 and continue to upgrade the ballpark, with features like Heritage Park, located behind center field, and the group party deck overlooking right field.",
+        "soakUpTheScene": "For most of its existence this place was known as Jacobs Field, or The Jake, and it remains a great place to catch a game. Tribe fans no longer sell it out every game like they did from 1995-2000, but they're still a dedicated bunch. Even if the game doesn't go well there are plenty of bars and restaurants nearby, as well as the Rock and Roll Hall of Fame + Museum, to help you happily kill the rest of the day."
+      },
+      "statistics": {
+        "seatingCap": "35,225",
+        "playingSurface": "Grass",
+        "opened": "1994",
+        "distanceToCenter": "410ft",
+        "avgAttend": "14,525",
+        "typology": "Retro Modern"
+      },
+      "seating": {
+        "imageURL": "http://a.espncdn.com/i/travel/stadiums/seating/mlb_cle.png",
+        "general": "Cameras are permitted if not obstructing fans view. Recording devices are not permitted. No bottles, cans or coolers. Food is permitted if brought in a plastic or paper bags, and small juice boxes are allowed. Persons using obscene or abusive language, or engaging in any other antisocial conduct offensive to those around them, will be asked by Indians personnel to cease this conduct. If the offensive conduct persists, those involved will be subject to ejection from the ballpark. Persons wearing indecent apparel imprinted with profane or abusive language while on ballpark grounds will be asked to remove or cover the garment. If the garment is not covered or removed, the person shall be subject to ejection."
+      }
+    },
+    {
+      "name" : "Rogers Centre",
+      "location": "One Blue Jays Way, Toronto, Ontario",
+      "homeOf" : "Toronto Bluejays",
+      "imageURL": [],
+      "overview": {
+        "history": "With its retractable roof, Rogers Centre, formerly known as SkyDome, is one of the world's most innovative and luxurious ballparks in the world. The facility opened in June 1989 and was noted for being the first stadium to have a fully retractable, motorized roof, as well as for the 348-room hotel attached to it, with 70 rooms overlooking the field. The venue's name was changed in February 2005, following its purchase by Rogers Communications.",
+        "soakUpTheScene": "Skydome, as it was known then, received tons of praise and publicity when it opened in 1989 because of its retractable roof, various modern amenities and the hotel built into the stadium that overlooked center field. It's not so unique any more, but with the many bars and restaurants and sights of downtown Toronto within walking distance, it's still a cool place to see a game."
+      },
+      "statistics": {
+        "seatingCap": "49,282",
+        "playingSurface": "Astroturf",
+        "opened": "1989",
+        "distanceToCenter": "400ft",
+        "avgAttend": "34,934",
+        "typology": "Multipurpose"
+      },
+      "seating": {
+        "imageURL": "http://a.espncdn.com/i/travel/stadiums/seating/mlb_tor.png",
+        "general": "Cameras are permitted if not obstructing fans view. Recording devices are not permitted. No bottles, cans or coolers. Food is permitted if brought in a plastic or paper bags, and small juice boxes are allowed. Persons using obscene or abusive language, or engaging in any other antisocial conduct offensive to those around them, will be asked by Indians personnel to cease this conduct. If the offensive conduct persists, those involved will be subject to ejection from the ballpark. Persons wearing indecent apparel imprinted with profane or abusive language while on ballpark grounds will be asked to remove or cover the garment. If the garment is not covered or removed, the person shall be subject to ejection."
+      }
+    },
+    {
+      "name" : "Yankee Stadium",
+      "location": "One E. 161st St., Bronx, NY 10451",
+      "homeOf" : "New York Yankees",
+      "imageURL": [],
+      "overview": {
+        "history": "Look for a mix of old and new at the new Yankee Stadium, which seats nearly 6,600 fewer fans than The House That Ruth Built. As explained by MLB.com reporter Anthony DiComo for the Yankees' Web site, Lon Trost, his team of Yankees executives and the HOK Sport global architecture firm examined every detail of the old Yankee Stadium, replicating all that they could. Many of its signature features, such as Monument Park and the decorative frieze, were easy to snap into place. And what the Yankees hoped was that in doing so, they would be able to transfer some of the more intangible aspects of the old stadium -- 'the ghosts,' so to speak -- along with them. Oh, and one BIG benefit of the new stadium: cup holders at every seat in the general bowl, where there were none at the old joint. Not only that: The ratio of rest rooms to fans is now 1 to 60; it was 1 to 89 previously. Also, there are 16 elevators in the house; only three ran in the original stadium. The facility replaces the original Yankee Stadium, which opened its doors in April 1923 and would be known from that point on as The House That Ruth Built, because it was recognized that the drawing power of Ruth (purchased from the Red Sox in December 1919) made the stadium possible.",
+        "soakUpTheScene": "In many ways the new Yankee Stadium resembles the original stadium more than the place they just moved out of, which underwent a massive renovation in the 1970s. The famous roof overhang and other touches have returned, and for fans that's a positive development. They'd really like to see the team start stockpiling championships, too."
+      },
+      "statistics": {
+        "seatingCap": "49,642",
+        "playingSurface": "Grass",
+        "opened": "2009",
+        "distanceToCenter": "408ft",
+        "avgAttend": "38,586",
+        "typology": "Retro Classic"
+      },
+      "seating": {
+        "imageURL": "http://a.espncdn.com/i/travel/stadiums/seating/mlb_nyy.png",
+        "general": "No backpacks, briefcases, attaché cases, coolers, glass or plastic bottles, cans, large purses, bags or video cameras are permitted. No laptop computers are allowed. There is no claim checking available. Diaper bags, small children's backpacks, small women's purses and backpack purses will be permitted after they are inspected. Re-entry is not permitted. Only vehicles dropping off or picking up disabled guests can park at the curb. Smoking is completely prohibited."
+      }
+    },
+    {
+
+      "name" : "Chase Field",
+      "location": "401 E. Jefferson St., Phoenix, AZ 85004",
+      "homeOf" : "Arizona DiamondBacks",
+      "imageURL": [],
+      "overview": {
+        "history": "The $354 million ballpark has become one of the game's most recognizable landmarks. The air-conditioned facility opened March 31, 1998. The ballpark has everything from a retractable roof to a signature swimming pool. This baseball-only facility has site lines that are second to none. More than 80 percent of the seats are inside the foul poles, and there is no upper deck around the outfield. The 8,000-ton cooling system is the equivalent of air-conditioning for more than 2,500 typical Arizona homes. After experimenting with other turfs, officials finally settled on Bull's Eye Bermuda, which has proven to be the suitable grass for a facility with a retractable roof, and installed it during the All-Star break in 1999. There's also a dirt path between the pitchers mound and homeplate, reminiscent of fields 100 years ago.",
+        "soakUpTheScene": "Chase Field has a retractable roof that has made baseball in the desert possible, but unless it's a real scorcher outside the team actually tries to keep it open for the D-backs' typical 6:40 p.m. starts. That allows for the magical feel of an open-air ballgame. But tradition takes a back seat most elsewhere, including at the famous swimming pool in right-center, where home run balls occasionally splash."
+      },
+      "statistics": {
+        "seatingCap": "48,519",
+        "playingSurface": "Grass",
+        "opened": "1998",
+        "distanceToCenter": "407ft",
+        "avgAttend": "26,876",
+        "typology": "Retro Modern"
+      },
+      "seating": {
+        "imageURL": "http://a.espncdn.com/i/travel/stadiums/seating/mlb_ari.png",
+        "general": "Cameras, photographic and hand-held video cameras for personal use may be brought into the ballpark, provided game action is not recorded. Flash photography and camera support pods are not permitted. Coolers and lunch bags containing food will be allowed, but they must be able to fit under a standard seat in a space 10in high, 16in wide and 13in deep. None of the following permitted into ballpark: firearms, blowhorns, noisemakers, fishing nets, beach balls and laser pens. Beverages allowed: Water (only) in sealed, plastic bottles; empty, plastic water bottles; sealed single-serving juice bottles; and formula/babyfood."
+      }
+    },
+
+
+
+  ]
+ }
