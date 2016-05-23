@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="theStandApp">
 <head>
   <title>Stadium App</title>
-  < /!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> -->
-  <script type="text/javascript" src="../js/main.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="/node_modules/angular/angular.js"></script>
+  <link rel="stylesheet" href="/css/main.css">
   <link href='https://fonts.googleapis.com/css?family=Fugaz+One' rel='stylesheet' type='text/css'>
   <!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
-  <link rel="stylesheet" href="../css/main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -37,19 +38,74 @@
   </nav>
 
 
+    <div id="landing">
+      <div id="overlay">
 
-  <div id="landing">
-    <div id="overlay">
-      <p class="hello"></p>
+
+        <div class="container">
+          <div class="row heading">
+            <div style="color:red; text-align: center;" class="col-xs-6 american">American
+            </div>
+
+            <aside style="color:blue; text-align:center" class="col-xs-6 national">National
+            </aside>
+          </div>
+        </div>
+
+
+          <div class="row heading">
+
+            <div style="color:white; text-align: center;" class="col-xs-6 alFields">
+              <ul class=alFields>
+                <li>-Angel Stadium of Anaheim-</li>
+                <li>-Comerica Park-</li>
+                <li>-Fenway Park-</li>
+                <li>-Globe Life Park in Arlington</li>
+                <li>-Kauffman Stadium-</li>
+                <li>-Minute Maid Park-</li>
+                <li>-Oakland Coliseum-</li>
+                <li>-Oriole Park at Camden Yards-</li>
+                <li>-Progressive Field-</li>
+                <li>-Rogers Park-</li>
+                <li>-Safeco Field-</li>
+                <li>-Target Field-</li>
+                <li>-Tropicana Field</li>
+                <li>U.S. Cellular Field</li>
+                <li>-Yankee Stadium-</li>
+              </ul>
+
+            </div>
+
+            <aside style="color:white; text-align:center" class="col-xs-6 nlFields">
+              <ul class=nlFields>
+                <li>-At&t Field-</li>
+                <li>-Busch Stadium-</li>
+                <li>-Citi Field-</li>
+                <li>-Citizen's Bank Park-</li>
+                <li>-Chase Field-</li>
+                <li>-Coors Field-</li>
+                <li>-Dodger Stadium-</li>
+                <li>-Great American Ballpark-</li>
+                <li>-Marlins Park-</li>
+                <li>-Miller Park-</li>
+                <li>-Nationals Park-</li>
+                <li>-Petco Park</li>
+                <li>-PNC Park-</li>
+                <li>-Turner Field</li>
+                <li>-Wrigley Field</li>
+              </ul>
+            </aside>
+          </div>
+        </div>
     </div>
   </div>
 
-      <div class="container">
-        <div class="row row-centered">
-          <div class="col-xs-6 col-centered leagues" id="nationalHeader">National</div>
-          <div class="col-xs-6 col-centered leagues">American</div>
-        </div>
-      </div>
+
+
+
+
+
+
 
 
 

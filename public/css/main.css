@@ -1,0 +1,94 @@
+body{
+  background-color: black;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+}
+
+.container {
+  margin-top: 20%;
+  font-family: 'Fugaz One', cursive; head;
+  font-size: 60px;
+  border-bottom: 1px solid white;
+
+}
+
+
+.alFields{
+  font-size: 20px;
+  margin-bottom: 20%;
+  height: 50;
+  overflow: scroll;
+
+}
+.alFields li:hover {
+  box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+}
+.nlFields {
+  font-size: 20px;
+  margin-bottom: 5%;
+}
+
+.nlFields li {
+  list-style-type: none;
+  margin-bottom: 2%;
+  font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+}
+
+.nlFields li:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+
+
+}
+
+.alFields li{
+  list-style-type: none;
+
+  margin-bottom: 2%;
+  font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+}
+.heading {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#landing {
+  background-image: url("https://tishanbaldeophotography.files.wordpress.com/2012/05/baseball-stadium-pano.jpg");
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  height: 700px;
+  width: 100%;
+
+}
+
+
+
+#overlay {
+  background-color: black;
+  background-position: center;
+  width: 100%;
+  height: 700px;
+
+  opacity: 0.66;
+  overflow: auto;
+  position: fixed;
+
+}
