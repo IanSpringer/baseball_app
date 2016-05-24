@@ -108,6 +108,10 @@ app.route('/parks_visited')
 app.route('/parks_visited/:id')
   .get(memoryController.show)
 
+app.get('/about', function(req, res){
+  res.render('about')
+})
+
 
 
 

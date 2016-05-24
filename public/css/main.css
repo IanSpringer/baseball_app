@@ -2,6 +2,7 @@ body{
   background-color: black;
 }
 
+
 .wrapper {
   text-align: center;
 }
@@ -23,6 +24,7 @@ body{
 .alFields{
   font-size: 20px;
   margin-bottom: 20%;
+
   height: 50;
   overflow: scroll;
 
@@ -37,7 +39,8 @@ body{
 
 .nlFields li {
   list-style-type: none;
-  margin-bottom: 2%;
+  padding-bottom: 2%;
+
   font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
 }
 
@@ -49,14 +52,11 @@ body{
 
 .alFields li{
   list-style-type: none;
-
-  margin-bottom: 2%;
+  border-right: 1px solid white;
+  padding-bottom: 2%;
   font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
 }
-.heading {
 
-
-}
 
 
 
