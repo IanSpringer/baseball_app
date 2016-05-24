@@ -53,17 +53,6 @@ passport.use(new GoogleStrategy({
   }
 ));
 
-app.get('/auth/google',
-  passport.authenticate('google', { scope:
-    [ 'https://www.googleapis.com/auth/plus.login',
-    , 'https://www.googleapis.com/auth/plus.profile.emails.read' ] }
-));
-
-app.get( '/auth/google/callback',
-    passport.authenticate( 'google', {
-        successRedirect: '/auth/google/success',
-        failureRedirect: '/auth/google/failure'
-}));
 
 
 //Configure view engine to render EJS templates
@@ -94,6 +83,23 @@ app.get('/', function(req, res){
   res.render('landing');
 });
 
+
+app.get('/auth/google',
+  passport.authenticate('google', { scope:
+    [ 'https://www.googleapis.com/auth/plus.login',
+    , 'https://www.googleapis.com/auth/plus.profile.emails.read' ] }
+));
+
+app.get( '/auth/google/callback',
+    passport.authenticate( 'google', {
+        successRedirect: '/auth/google/success',
+        failureRedirect: '/auth/google/failure'
+}));
+app.get('/auth/google', passport.authenticate('google', { scope: [
+       'https://www.googleapis.com/auth/plus.login',
+       'https://www.googleapis.com/auth/plus.profile.emails.read']
+}));
+
 app.route('/stadiums')
   .get(stadiumController.index)
 
@@ -103,10 +109,6 @@ app.route('/stadiums/:id')
 
   // res.render('index');
 
-app.get('/auth/google', passport.authenticate('google', { scope: [
-       'https://www.googleapis.com/auth/plus.login',
-       'https://www.googleapis.com/auth/plus.profile.emails.read']
-}));
 
 // app.get('/stadiums/')
 
