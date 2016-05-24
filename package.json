@@ -8,6 +8,7 @@
     "bcrypt": "^0.8.6",
     "body-parser": "^1.15.1",
     "bootstrap": "^3.3.6",
+    "cookie-parser": "^1.4.2",
     "express": "^4.13.4",
     "express-session": "^1.13.0",
     "googlemaps": "^1.6.0",
