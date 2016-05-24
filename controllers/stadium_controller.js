@@ -18,6 +18,7 @@ controller.index = function(req, res){
   // });
 };
 
+
 controller.show = function(req, res){
   console.log(req.params)
    // if(req.params.id){

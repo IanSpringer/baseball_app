@@ -14,6 +14,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
-  <%= stadium.name %>
+
+<body style="color:white">
+     <nav class="navbar navbar-inverse navbar-fixed-top">
+    <ul class="nav navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/stadiums">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/parks_visited">Parks Visited</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Logout</a>
+      </li>
+    </ul>
+    <h2  id="title" style="color:white;  font-size: 17px; float:right; margin-right:5%; font-family: 'Fugaz One', cursive; head">The Stand</h2>
+  </nav>
+
+
+    <div id="landing">
+      <div id="overlay">
+      <h1 style="padding-top:8%; padding-left:5%; font-family: 'Fugaz One'; font-size:50px; "> <%= stadium.name %> <button type="button" method="post" class="btn btn-info addBtn" style="float:right; margin-right:5%;">Add to Parks Visited</button>
+     </h1>
+      <p style="padding-left:8%; padding-top:1%; font-family: 'Fugaz One' "> home of the </p>
+      <h2 style="padding-left:5%; font-family: 'Fugaz One'"><%=stadium.homeOf%></h2>
+      <div id="images">
+      </div>
+      <div class="overview" style="padding:5%">
+        <h3>Overview</h3>
+        <hr>
+        <h4>History</h4>
+        <p><%=stadium.overview.history%></p>
+        <h4 style="padding-top:1%">Soak Up The Scene</h4>
+        <p><%=stadium.overview.soakUpTheScene%></p>
+      </div>
+      <div class="stats" style="padding-left:5%; padding-right:5%; padding-bottom:8%">
+        <h3>Stadium Facts</h3>
+        <hr>
+        <p>League: <%=stadium.league%></p>
+        <p>Location: <%=stadium.location%></p>
+        <p>Seating Capacity: <%=stadium.statistics.seatingCap%></p>
+        <p>Playing Surface: <%=stadium.statistics.playingSurface%></p>
+        <p>Opened in: <%=stadium.statistics.opened%></p>
+        <p>Distance to center: <%=stadium.statistics.distanceToCenter%></p>
+        <p>Average Attendance: <%=stadium.statistics.avgAttend%></p>
+        <p>Typology: <%=stadium.statistics.typology%></p>
+      </div>
+
+
+
+    </div>
+
+  </div>
 </body>

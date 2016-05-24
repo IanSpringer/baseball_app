@@ -1,4 +1,5 @@
 var Memory = require('../models/memory_model.js')
+var stadium = require('../models/stadium.json')
 var controller = {};
 
 controller.index = function(req, res){
@@ -58,6 +59,7 @@ controller.update = function(req, res){
       res.json(stadium);
   });
 };
+
 
 controller.destroy = function(req, res){
   var id = req.params.id;
