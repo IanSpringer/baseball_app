@@ -7,10 +7,11 @@ controller.index = function(req, res){
       throw err;
     }
     res.json(memory)
+    // res.render('parks_visited')
   })
 };
 
-//todo create
+//memory create
 controller.create = function(req, res) {
 
   var memory = new Memory({
@@ -18,7 +19,7 @@ controller.create = function(req, res) {
     imageURL: req.body.imageURL,
     dateVisited: req.body.dateVisited,
     comments: req.body.comments,
-    rating: req.body.createdAt
+    rating: req.body.rating
    });
   memory.save(function(err){
     if(err) throw err;
@@ -32,9 +33,46 @@ controller.show = function(req, res) {
     if (err) {
       throw err;
     }
-    res.render('show', {memory: memory});
+    res.json(memory);
     })
   };
+
+controller.update = function(req, res){
+  var id = req.params.id;
+  var stadiumVisited = req.body.itemTitle;
+  var serialNumber = req.body.serialNumber;
+  var description = req.body.description;
+
+  Memory.findOneAndUpdate(
+    {_id: id},
+    {stadiumVisited: req.body.stadiumVisited,
+    imageURL: req.body.imageURL,
+    dateVisited: req.body.dateVisited,
+    comments: req.body.comments,
+    rating: req.body.rating
+    },
+    function(err, stadium) {
+    if (err) {
+      throw err;
+    }
+      res.json(stadium);
+  });
+};
+
+controller.destroy = function(req, res){
+  var id = req.params.id;
+  console.log(req.body, req.params);
+  Memory.findOneAndRemove({_id: id}, function(err, doc, result){
+    if (err){
+      console.log(err);
+    }
+    console.log(err, doc, result);
+    res.json(result);
+  });
+  //find equipment to delete via ID
+  //delete item
+  //send back confirmation as JSON
+};
 
 
 

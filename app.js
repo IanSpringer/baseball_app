@@ -11,6 +11,7 @@ var passport = require('passport')
 var GoogleStrategy = require( 'passport-google-oauth2' ).Strategy;
 var cookieParser = require('cookie-parser')
 var memoryController = require('./controllers/memory_controller.js')
+var stadiumController = require('./controllers/stadium_controller.js')
 var User = require('./models/user_model.js')
 var bcrypt = require('bcrypt')
 
@@ -88,18 +89,26 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended:true}));
 
-app.get('/home', function(req, res){
-  res.render('index');
-});
 
 app.get('/', function(req, res){
   res.render('landing');
 });
 
+app.route('/stadiums')
+  .get(stadiumController.index)
+
+app.route('/stadiums/:id')
+  .get(stadiumController.show)
+
+
+  // res.render('index');
+
 app.get('/auth/google', passport.authenticate('google', { scope: [
        'https://www.googleapis.com/auth/plus.login',
        'https://www.googleapis.com/auth/plus.profile.emails.read']
 }));
+
+// app.get('/stadiums/')
 
 app.route('/parks_visited')
   .get(memoryController.index)
@@ -107,10 +116,12 @@ app.route('/parks_visited')
 
 app.route('/parks_visited/:id')
   .get(memoryController.show)
+  .patch(memoryController.update)
+  .delete(memoryController.destroy)
 
-app.get('/about', function(req, res){
-  res.render('about')
-})
+// app.get('/about', function(req, res){
+//   res.render('about')
+// })
 
 
 

@@ -1,5 +1,6 @@
 {
   "stadiums": [{
+      "id": 1,
       "name": "Coors Field",
       "league": "national",
       "location": "2001 Blake St. Denver, CO 80205",
@@ -27,6 +28,7 @@
 
 
     {
+      "id": 2,
       "name": "Globe Life Park in Arlington",
       "location": "1000 Ballpark Way Arlington, TX 76011",
       "homeOf": "Texas Rangers",
@@ -53,6 +55,7 @@
 
 
     {
+      "id": 3,
       "name": "Fenway Park",
       "location": "Four Yawkey Way, Boston, MA 02215",
       "homeOf": "Boston Red Sox",
@@ -78,6 +81,7 @@
 
 
     {
+      "id": 4,
       "name": "Progressive Field",
       "location": "2401 Ontario St., Cleveland, OH 44115",
       "homeOf": "Cleveland Indians",

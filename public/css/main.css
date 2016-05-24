@@ -13,7 +13,7 @@ body{
 }
 
 .container {
-  margin-top: 20%;
+  padding-top: 10%;
   font-family: 'Fugaz One', cursive; head;
   font-size: 60px;
   border-bottom: 1px solid white;
@@ -26,7 +26,7 @@ body{
   margin-bottom: 20%;
 
   height: 50;
-  overflow: scroll;
+ /* overflow: scroll;*/
 
 }
 .alFields li:hover {
