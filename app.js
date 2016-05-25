@@ -8,12 +8,15 @@ var router = express.Router();
 var db = require('./db.js')
 var bodyParser = require('body-parser');
 var passport = require('passport')
+var LocalStrategy = require('passport-local').Strategy;
+
 var GoogleStrategy = require( 'passport-google-oauth2' ).Strategy;
 var cookieParser = require('cookie-parser')
 var memoryController = require('./controllers/memory_controller.js')
 var stadiumController = require('./controllers/stadium_controller.js')
 var User = require('./models/user_model.js')
 var bcrypt = require('bcrypt')
+var bower = require('bower')
 
 var allowCrossDomain = function(req, res, next) {
     res.header('Access-Control-Allow-Origin', '*');
@@ -27,31 +30,16 @@ GoogleStrategy.prototype.userProfile = function(token, done) {
 
 app.use(allowCrossDomain);
 
-// Google Oauth
 
-passport.serializeUser(function(user, done) {
-  done(null, user);
-});
-
-passport.deserializeUser(function(obj, done) {
-  done(null, obj);
-});
 
 var GOOGLE_CLIENT_ID = '858357038342-j7i0v6d4cdeu4nnj4q90ug39o0fduabm.apps.googleusercontent.com'
 var GOOGLE_CLIENT_SECRET = 'pnM-PGvkDcKOZsjyYfhqbI7j'
 
-passport.use(new GoogleStrategy({
-    clientID:     GOOGLE_CLIENT_ID,
-    clientSecret: GOOGLE_CLIENT_SECRET,
-    callbackURL: "http://localhost:3000/auth/google/callback",
-    passReqToCallback   : true
-  },
-  function(request, accessToken, refreshToken, profile, done) {
-    User.find({ googleId: profile.id }, function (err, user) {
-      return done(err, user);
-    });
-  }
-));
+
+
+
+
+
 
 
 
@@ -65,40 +53,78 @@ app.use(cookieParser())
 app.use(expressSession({secret: 'maxwell'}))
 app.use( passport.initialize());
 app.use( passport.session());
-// app.use(expressSession({
-//     secret: cookie_secret,
-//     name: cookie_name,
-//     store: sessionStore, // connect-mongo session store
-//     proxy: true,
-//     resave: true,
-//     saveUninitialized: true
-// }));
+
 
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended:true}));
 
 
+// app.get('/', function(req, res){
+//   res.render('landing');
+// });
+passport.use('local', new LocalStrategy(
+  function(username, password, done) {
+    User.findOne({username: username}, function(err, user) {
+      if (err) { return done(err); }
+      if (!user) { return done(null, false); }
+      console.log('user exists')
+      if (!user.validatePassword(password)) { return done(null, false); }
+      console.log('no errors!')
+      return done(null, user);
+    });
+  }));
+
+passport.serializeUser(function(user, done) {
+  done(null, user.id);
+});
+
+passport.deserializeUser(function(id, done) {
+  User.findById(id, function (err, user) {
+    done(err, user);
+  });
+});
+
+
+
+//Routes
+
 app.get('/', function(req, res){
   res.render('landing');
 });
 
+app.post('/',
+  passport.authenticate('local', { failureRedirect: '/' }),
+  function(req, res) {
+    console.log('Success');
+    res.redirect('/stadiums');
+  });
 
-app.get('/auth/google',
-  passport.authenticate('google', { scope:
-    [ 'https://www.googleapis.com/auth/plus.login',
-    , 'https://www.googleapis.com/auth/plus.profile.emails.read' ] }
-));
+app.post('/register', function(req, res) {
 
-app.get( '/auth/google/callback',
-    passport.authenticate( 'google', {
-        successRedirect: '/auth/google/success',
-        failureRedirect: '/auth/google/failure'
-}));
-app.get('/auth/google', passport.authenticate('google', { scope: [
-       'https://www.googleapis.com/auth/plus.login',
-       'https://www.googleapis.com/auth/plus.profile.emails.read']
-}));
+
+  var body = req.body;
+
+  var user = new User();
+
+  user.username = body.username;
+  user.password = user.encrypt(body.password);
+
+  user.save(function(err) {
+    if (err) throw err;
+    // res.json({ message: 'User created successfully!', results: user });
+    req.login(user, function(err) {
+        if (err) {
+          console.log(err);
+        }
+        res.redirect('/stadiums');
+      });
+  });
+});
+
+
+
+
 
 app.route('/stadiums')
   .get(stadiumController.index)

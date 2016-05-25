@@ -34,7 +34,7 @@
 
     <div id="landing">
       <div id="overlay">
-      <h1 style="padding-top:8%; padding-left:5%; font-family: 'Fugaz One'; font-size:50px; "> <%= stadium.name %> <button type="button" method="post" class="btn btn-info addBtn" style="float:right; margin-right:5%;">Add to Parks Visited</button>
+      <h1 style="padding-top:8%; padding-left:5%; font-family: 'Fugaz One'; font-size:50px;" class="noOpacity"> <%= stadium.name %> <button type="button" method="post" class="btn btn-info addBtn" style="float:right; margin-right:5%;">Add to Parks Visited</button>
      </h1>
       <p style="padding-left:8%; padding-top:1%; font-family: 'Fugaz One' "> home of the </p>
       <h2 style="padding-left:5%; font-family: 'Fugaz One'"><%=stadium.homeOf%></h2>
@@ -66,7 +66,7 @@
         <h3>Seating</h3>
         <hr>
         <h4>General</h4>
-        <p><%=stadium.seating.general%><img src="<%=stadium.seating.imageURL%>" width="300" height="180" style="float:right; margin:10%; display:inline-block;"></p>
+        <p><%=stadium.seating.general%><img src="<%=stadium.seating.imageURL%>" width="300" height="180" style="float:right; margin:10%; display:inline"></p>
 
 
 

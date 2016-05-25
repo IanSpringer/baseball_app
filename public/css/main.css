@@ -24,6 +24,9 @@ a {
 
 }
 
+.noOpacity{
+  opacity: none;
+}
 
 .alFields{
   font-size: 20px;
