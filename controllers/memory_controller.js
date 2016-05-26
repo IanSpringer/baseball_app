@@ -35,7 +35,7 @@ controller.show = function(req, res) {
     if (err) {
       throw err;
     }
-    res.render('parks_visited');
+    res.json(memory)
     })
   };
 
