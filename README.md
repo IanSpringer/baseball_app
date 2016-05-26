@@ -1,4 +1,4 @@
-The Stand App
+##The Stand App
 
 This is the app that celebrates the history of baseball...one stadium 
 at a time.
