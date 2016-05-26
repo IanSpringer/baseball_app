@@ -22,7 +22,7 @@
         <a class="nav-link" href="/stadiums">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/parks_visited">Parks Visited</a>
+        <a class="nav-link" href="/parks_visited">Bucket List</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Logout</a>
@@ -34,8 +34,7 @@
 
     <div id="landing">
       <div id="overlay">
-      <h1 style="padding-top:8%; padding-left:5%; font-family: 'Fugaz One'; font-size:50px;" class="noOpacity"> <%= stadium.name %> <button type="button" method="post" class="btn btn-info addBtn" style="float:right; margin-right:5%;">Add to Parks Visited</button>
-     </h1>
+      <h1 style="padding-top:8%; padding-left:5%; font-family: 'Fugaz One'; font-size:50px;" class="noOpacity"><%= stadium.name %></h1>
       <p style="padding-left:8%; padding-top:1%; font-family: 'Fugaz One' "> home of the </p>
       <h2 style="padding-left:5%; font-family: 'Fugaz One'"><%=stadium.homeOf%></h2>
       <div id="images" style="margin-left:6%;">

@@ -17,6 +17,7 @@ var stadiumController = require('./controllers/stadium_controller.js')
 var User = require('./models/user_model.js')
 var bcrypt = require('bcrypt')
 var bower = require('bower')
+// var connect
 
 var allowCrossDomain = function(req, res, next) {
     res.header('Access-Control-Allow-Origin', '*');
@@ -122,6 +123,19 @@ app.post('/register', function(req, res) {
   });
 });
 
+app.get('/stadiums',
+  require('connect-ensure-login').ensureLoggedIn(),
+  function(req, res){
+    res.render('index', {user: req.user});
+
+});
+
+app.get('/logout',
+  function(req, res){
+    req.logout();
+    res.redirect('/');
+  });
+
 
 
 
@@ -132,13 +146,7 @@ app.route('/stadiums')
 app.route('/stadiums/:id')
   .get(stadiumController.show)
 
-
-  // res.render('index');
-
-
-// app.get('/stadiums/')
-
-app.route('/parks_visited')
+app.route('/parks_visited?:format')
   .get(memoryController.index)
   .post(memoryController.create)
 
@@ -147,9 +155,7 @@ app.route('/parks_visited/:id')
   .patch(memoryController.update)
   .delete(memoryController.destroy)
 
-// app.get('/about', function(req, res){
-//   res.render('about')
-// })
+
 
 
 

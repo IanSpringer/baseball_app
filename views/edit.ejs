@@ -4,7 +4,7 @@
   <title>Stadium App</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script type="text/javascript" src="/js/main.js"></script>
-  <!-- <script src="../controllers/memory_controller.js"></script> -->
+  <script src="../controllers/memory_controller.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="/node_modules/angular/angular.js"></script>
   <link rel="stylesheet" href="/css/main.css">
@@ -12,7 +12,16 @@
   <!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-  <body class="landing">
+
+
+
+
+
+
+
+
+
+  <body style="background:black">
 
 
   <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -31,24 +40,28 @@
   </nav>
 
 
-  <div>
-      <div class="container" style="color:white">
-        <h1 style="padding-top:2%"> Add Stadium to Bucket List</h1>
+  <div id="landing">
+      <div id="overlay">
+        <div class="container" style="color:white">
 
-        <form action="/parks_visited" method="post">
-          <div class="form-group row">
-            <div  class="col-sm-8">
-              <input type="itemTitleInput" class="form-control" name="stadiumName" id="stadiumName" placeholder="Stadium Name">
-              <p style="font-size: 20px">Been there?<input type="radio" name="visited" value="false">No
-                <input type="radio" name="visited" value="true">Yes
-                <button type="submit" class="btn btn-info addBtn" id="submit1">Add Stadium</button>
-              </p>
-            </div>
-          </div>
-        </form>
+<h1 style="padding-top:2%"> Edit Stadium in Bucket List</h1>
+<br>
+
+
+
+  <form action="/parks_visited/<%=stadium._id" method="post">
+    <div class="form-group row">
+      <div  class="col-sm-8">
+        <input type="itemTitleInput" class="form-control" name="stadiumName" id="stadiumName" placeholder="Stadium Name">
+         <p style="font-size: 20px">Been there?<input type="radio" name="visited" value="false">No</input>
+         <input type="radio" name="visited" value="true">Yes</input></p>
+          <button type="submit" class="btn btn-info addBtn" id="submit1">Edit Stadium</button>
+          </h3>
       </div>
-  </div>
+    </div>
 
- <table id="tbody" style="color:white;"></table>
+  </form>
+
 
 </body>
+

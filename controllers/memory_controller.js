@@ -7,8 +7,12 @@ controller.index = function(req, res){
     if(err){
       throw err;
     }
-    res.json(memory)
-    // res.render('parks_visited')
+    if (req.params.format === '.json') {
+      res.json(memory);
+    } else {
+      res.render('parks_visited')
+    }
+
   })
 };
 
@@ -16,15 +20,12 @@ controller.index = function(req, res){
 controller.create = function(req, res) {
 
   var memory = new Memory({
-    stadiumVisited: req.body.stadiumVisited,
-    imageURL: req.body.imageURL,
-    dateVisited: req.body.dateVisited,
-    comments: req.body.comments,
-    rating: req.body.rating
+    stadiumName: req.body.stadiumName,
+    visited: req.body.visited,
    });
   memory.save(function(err){
     if(err) throw err;
-    res.json(memory)
+    res.render('parks_visited')
   })
 };
 
@@ -34,23 +35,19 @@ controller.show = function(req, res) {
     if (err) {
       throw err;
     }
-    res.json(memory);
+    res.render('parks_visited');
     })
   };
 
 controller.update = function(req, res){
   var id = req.params.id;
-  var stadiumVisited = req.body.itemTitle;
-  var serialNumber = req.body.serialNumber;
-  var description = req.body.description;
+  var stadiumName = req.body.stadiumName;
+  var visited = req.body.visited;
 
   Memory.findOneAndUpdate(
     {_id: id},
-    {stadiumVisited: req.body.stadiumVisited,
-    imageURL: req.body.imageURL,
-    dateVisited: req.body.dateVisited,
-    comments: req.body.comments,
-    rating: req.body.rating
+    {stadiumName: req.body.stadiumName,
+     visited: req.body.visited,
     },
     function(err, stadium) {
     if (err) {
@@ -71,9 +68,7 @@ controller.destroy = function(req, res){
     console.log(err, doc, result);
     res.json(result);
   });
-  //find equipment to delete via ID
-  //delete item
-  //send back confirmation as JSON
+
 };
 
 

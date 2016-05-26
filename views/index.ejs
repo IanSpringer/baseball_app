@@ -6,7 +6,7 @@
 
   <script src="/node_modules/angular/angular.js"></script>
   <script type="text/javascript" src="/js/main.js"></script>
-  <script src="../js/memory_controller"></script>
+  <!-- <script src="../js/memory_controller"></script> -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/main.css">
   <link href='https://fonts.googleapis.com/css?family=Fugaz+One' rel='stylesheet' type='text/css'>
@@ -15,6 +15,68 @@
 </head>
 
 
+<body class="landing">
+<% if (!user) { %>
+
+<div class="title">
+  <h1 class="titleHeader" style="color:white;  font-size: 80px; text-align: center; margin-topt:40%; font-family: 'Fugaz One', cursive; head">The Stand</h1>
+
+  <h1 style="color:white"> Login </h1>
+
+  <form action="/" method="post" class="form-horizontal" style="color:white;">
+
+    <div class="form-group">
+      <div class="col-sm-6">
+        <label class="control-label">Username</label>
+        <input class="form-control" type="text" name="username"/><br/>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="col-sm-6">
+        <label class="control-label">Password</label>
+        <input class="form-control" value="password" type="password" name="password"/>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="col-sm-8">
+        <input class="btn btn-default" type="submit" value="Submit"/>
+      </div>
+    </div>
+
+  </form>
+
+
+
+  <h1> Register </h1>
+
+  <form action="/register" method="post" class="form-horizontal">
+
+    <div class="form-group">
+      <div class="col-sm-6">
+        <label class="control-label">Username</label>
+        <input class="form-control" type="text" name="username"/><br/>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="col-sm-6 col-md-6">
+        <label class="control-label">Password</label>
+        <input class="form-control" value="password" type="password" name="password"/>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="col-sm-8">
+        <input class="btn btn-default" type="submit" value="Submit"/>
+      </div>
+    </div>
+
+  </form>
+</body>
+
+  <% }else{ %>
 
 
   <body>
@@ -26,21 +88,21 @@
         <a class="nav-link" href="/stadiums">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/parks_visited">Parks Visited</a>
+        <a class="nav-link" href="/parks_visited">Bucket List</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Logout</a>
+        <a class="nav-link" href="/logout">Logout</a>
       </li>
     </ul>
     <h2  id="title" style="color:white;  font-size: 17px; float:right; margin-right:5%; font-family: 'Fugaz One', cursive; head">The Stand</h2>
   </nav>
 
 
-    <div id="landing">
+    <div>
       <div id="overlay">
 
 
-        <div class="container">
+        <div class="container" style="padding-top: 13%">
           <div class="col-md-6 col-xs-12">
             <div style="color:red; text-align: center; font-size:40px" class="american">American League</div>
             <div style="color:white; text-align: center;" class="alFields">
@@ -54,7 +116,7 @@
                 <li><a href="/stadiums/29">-Oakland Coliseum-</a></li>
                 <li><a href="/stadiums/20">-Oriole Park at Camden Yards-</a></li>
                 <li><a href="/stadiums/4">-Progressive Field-</a></li>
-                <li><a href="/stadiums/5">-Rogers Park-</a></li>
+                <li><a href="/stadiums/5">-Rogers Centre-</a></li>
                 <li><a href="/stadiums/21">-Safeco Field-</a></li>
                 <li><a href="/stadiums/22">-Target Field-</a></li>
                 <li><a href="/stadiums/28">-Tropicana Field</a></li>
@@ -111,7 +173,7 @@
 
 
 
-
+<% } %>
 
 
 
