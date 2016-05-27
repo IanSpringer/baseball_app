@@ -1,4 +1,10 @@
-
+var visited = function(){
+  if(stadium.visited){
+    $name.css("text-decoration", "line-through")
+    stadium.visited = true
+    return stadium;
+  }
+}
 
 $(document).ready(function(){
   var myStadiums = []
@@ -28,9 +34,18 @@ $(document).ready(function(){
 
         tr.append($controls);
         $name.on('click', function(){
+          $.ajax({
+            url: '/parks_visited/' + stadium._id,
+            method: 'PATCH',
+            success: function(){
+              console.log("patched");
+
+            }
+          })
         console.log('hi')
         $name.css('text-decoration', 'line-through')
-        return(stadium.visited = true)
+        stadium.visited = true;
+        return stadium
       });
 
         $deletebutton.on('click', function(){
@@ -42,16 +57,20 @@ $(document).ready(function(){
               console.log("deleted");
               tr.remove();
             }
-          });
-        });
+          })
 
-        $('#tbody').append(tr);
 
       })
+
+     $('#tbody').append(tr);
+
 
       })
     })
-  console.log(myStadiums)
+})
+
+
+  // console.log(myStadiums)
 
 
 

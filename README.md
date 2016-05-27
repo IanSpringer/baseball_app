@@ -10,7 +10,7 @@ https://github.com/IanSpringer/baseball_app
 https://trello.com/b/1le2yRcC/stadium-app
 
 ##Heroku
-e-stand-app.herokuapp.com
+the-stand-app.herokuapp.com
 
 ##Installation
 * Fork over and git clone on your local.
